@@ -1,4 +1,4 @@
-# Cryto News (#MultiWidgetWebsite)
+# Crypto News (#MultiWidgetWebsite)
 crypto-news-multi-widget-website-4
 <br><br>
 Demo: <a href="http://www.crypto.janmager.pl">www.crypto.janmager.pl</a>
