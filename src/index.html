@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lnag="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Crypto News - Multi Widgets Website</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body onload="updateBTC()">
+
+      <div class="container">
+
+        <!-- BTC COURS -->
+        <div class="little-container calendar BOXkrypto" id="bitcoin">
+          <h1>Cryptocurrencies</h1>
+          <div class="texts-calendar">
+            <div class="btc-boxin btc1" onclick="btcClicked(1);">
+              1 BTC =
+              <span id="btc-course"></span>
+            </div>
+            <div class="btc-boxin btc4" onclick="btcClicked(4);">
+              1 BCC =
+              <span id="btc-course-bcc"></span>
+            </div>
+            <div class="btc-boxin btc2" onclick="btcClicked(2);">
+              1 LSK =
+              <span id="btc-course-usd"></span>
+            </div>
+            <div class="btc-boxin btc3" onclick="btcClicked(3);">
+              1 GAME =
+              <span id="btc-course-eur"></span>
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+
+    <footer>
+      <span>&copy; <a href="http://www.janmager.pl">www.janmager.pl</a></span>
+    </footer>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/btc.js"></script>
+
+  </body>
+</html>
